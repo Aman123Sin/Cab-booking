@@ -1,0 +1,150 @@
+/* /now insert google fonts here/ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: 'poppins',sans-serif;
+}
+body{
+    background-color: white;
+}
+.slide{
+    height: 100%;
+    width: 180px;
+    position: absolute;
+    background-color: white;
+    transition:0.5s ease;
+}
+h2{
+    color:rgba(3, 3, 250, 0.932) ;
+    font-weight: 700 ;
+    text-align:center;
+    padding: 10px 0;
+    padding-right: 30px;
+    pointer-events: none;
+}
+ul li{
+    list-style:none;
+
+}
+ul li a{
+    color: black;
+    font-weight: 500;
+    padding: 5px 0;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+ul li a i{
+width: 40px;
+text-align: center;
+}
+input{
+    display:none;
+    visibility:hidden;
+    /* -webkit-animation: none; */
+}
+.toggle-container {
+    top: auto;
+    position: relative;
+}
+
+.toggle {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: black;
+}
+
+.common {
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  background-color: rgb(1, 1, 39);
+  border-radius: 50px;
+  transition: 0.3s ease;
+  transform: translate(25%);
+}
+.top_line {
+  top: 20%;
+}
+.middle_line {
+  top: 50%;
+}
+
+.bottom_line {
+  top: 80%;
+}
+body{
+    background-color: white;
+}
+.slide {
+  height: 100%;
+  width: 180px;
+  position: absolute;
+  background-color: rgb(64, 64, 215);
+  transition: 0.5s ease;
+  left: -180px;
+  top: none;
+}
+.slide ul li a{
+  color:black
+}
+.slide ul li a:hover {
+  color: rgb(122, 118, 118);
+}
+
+#toggle-checkbox:checked + .toggle + .slide {
+  left: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: blue;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    color: rgb(133, 133, 234);
+    font-size: 1.01rem;
+}
+.main{
+  width: 100%;
+  height: 100vh;
+  background-image: url('car.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+footer{
+  height: 100px;
+  background-color: rgb(54, 54, 54);
+}
+footer div div h2{
+  color: black;
+  left: 25%;
+}
+footer div div p{
+  color: rgb(27, 26, 26);
+}
