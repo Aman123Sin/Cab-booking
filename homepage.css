@@ -55,12 +55,12 @@ input{
   position: absolute;
   height: 30px;
   width: 30px;
-  top: 0px;
-  left: 0px;
+  top: 18px;
+  left: 10px;
   z-index: 1;
   cursor: pointer;
   border-radius: 3px;
-  background-color: white;
+  background-color: transparent;
   box-shadow: black;
 }
 
@@ -73,7 +73,7 @@ input{
   transition: 0.3s ease;
   transform: translate(25%);
 }
-.top_line {
+/* .top_line {
   top: 20%;
 }
 .middle_line {
@@ -82,7 +82,7 @@ input{
 
 .bottom_line {
   top: 80%;
-}
+} */
 body{
     background-color: white;
 }
@@ -90,7 +90,7 @@ body{
   height: 100%;
   width: 180px;
   position: absolute;
-  background-color: rgb(64, 64, 215);
+  background-color: rgb(122, 118, 118);
   transition: 0.5s ease;
   left: -180px;
   top: none;
@@ -137,9 +137,14 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   background-position: center;
 }
-footer{
-  height: 100px;
-  background-color: rgb(54, 54, 54);
+.footer{
+  height: 300px;
+    background-color: rgb(122, 118, 118);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
 }
 footer div div h2{
   color: black;
@@ -147,4 +152,18 @@ footer div div h2{
 }
 footer div div p{
   color: rgb(27, 26, 26);
+}
+.footer .container{
+  display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .container .footer-content{
+  width: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+    padding: 20px;
 }
